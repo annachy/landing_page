@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'open_sansregular', sans-serif;
+}
+
+
+
+.grid-container {
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    padding: 0.7rem;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.32%;
+}
+
+.col-5 {
+    width: 41.65%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.31%;
+}
+
+.col-8 {
+    width: 66.64%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3%;
+}
+
+.col-11 {
+    width: 91.63%;
+}
+
+.col-12 {
+    width: 100%
+}
+
+section {
+    clear: both;
+
+}
+
+header {
+    background: url(images/bg.jpg);
+    width: 100%;
+    height: 37.5rem;
+}
+
+.intro {
+    text-align: center;
+
+
+}
+
+.intro p {
+    margin-left: 15%;
+}
+
+.features {
+    margin: 3rem auto;
+}
+
+.features h4 {
+    text-align: center;
+}
+
+.features p {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.about {
+    height: 25rem;
+    background-color: #e7e7e7;
+
+}
+
+.about-text {
+    margin-left: 15%;
+}
+
+.about-text p, .about-text ul {
+    font-size: 0.9rem;
+}
+
+.quotation {
+    margin: 5%;
+}
+.quotation p {
+    text-align: center;
+}
+
+.pricing {
+    height: 37.5rem;
+    background-color: #e7e7e7;
+}
+
+.pricing h2 {
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.pricing p {
+    margin-left: 15%;
+    text-align: center;
+}
+
+.table {
+    margin-left: 25%;
+}
+
+
+
+
+/* media queries */
+
+@media
+
+
+
+/* end media queries */
+
